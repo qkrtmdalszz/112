@@ -1,0 +1,53 @@
+.menuWrap {
+  display: flex;
+  align-items: center;
+  /* 수직 가운데 정렬 */
+}
+
+.menuWrap a.logo {
+  font-size: 40px;
+}
+
+.menuWrap a {
+  color: #000;
+  font-size: 25px;
+  font-family: 'apple';
+  margin: 0 25px;
+  /* 좌우 여백 조정 */
+  padding: 50px;
+  margin-top: -50px;
+}
+
+.btn {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 0.6em;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-top: -50px;
+  margin-left: auto;
+
+  &:hover,
+  &:focus {
+    color: #000;
+    outline: 0;
+  }
+}
+
+@font-face {
+  font-family: 'apple';
+  src: url('C:\Users\qkrtm\112\src\font\AppleSDGothicNeoB.ttf');
+}

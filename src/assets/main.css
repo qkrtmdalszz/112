@@ -1,0 +1,30 @@
+@import './base.css';
+
+#app {
+  max-width: 1800px;
+  margin: 0 100px;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(0, 0%, 100%, 0.2);
+  }
+}
+
+@media (min-width: 1800px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+
+}

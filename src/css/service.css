@@ -1,0 +1,33 @@
+.a {
+  display: flex;
+  align-items: center;
+  /* 수직 가운데 정렬 */
+  justify-content: center;
+  /* 수평 가운데 정렬 추가 */
+  margin-top: 20px;
+  /* 위쪽 여백 */
+  padding: 0 100px;
+}
+
+.text-wrapper {
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 40px;
+  margin-bottom: 15px;
+  display: inline-block;
+
+}
+
+.text {
+  font-size: 15px;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.image {
+  width: auto;
+  height: 400px;
+  margin-left: auto;
+}
